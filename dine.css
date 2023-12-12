@@ -1,0 +1,23 @@
+body {
+    background-color: tomato;
+    color: darkmagenta;
+    text-align: center;
+}
+
+canvas {
+    border: 5px outset mediumspringgreen;
+    margin-top: 75px;
+    border-radius: 15px;
+    animation-name: dine;
+    animation-duration: 3500ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes dine {
+    from {
+        box-shadow: 15px 15px 30px blue;
+    }
+    to {
+        box-shadow: 15px 15px 30px green;
+    }
+}

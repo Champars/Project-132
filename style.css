@@ -1,0 +1,11 @@
+#a {
+    background-color: tomato;
+    color: darkmagenta;
+    text-align: center;
+}
+
+.b {
+    width: 37.40%;
+    border-radius: 15%;
+    border: 10px outset green;
+}
